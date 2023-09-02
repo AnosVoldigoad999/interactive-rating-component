@@ -24,6 +24,8 @@ body{
   min-width: 290px;
   border-radius: 15px;
   height: 60vh;
+  min-height: 340px;
+  max-height: 400px;
 }
 
 .star{
