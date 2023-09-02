@@ -82,8 +82,10 @@ h2{
 
 .other{
   content: url(../public/illustration-thank-you.svg);
-  height: 60%;
-  width: 35%;
+  height: 50%;
+  max-height: 100px;
+  width: 40%;
+  max-width: 135px;
 }
 
 .top{
@@ -173,7 +175,5 @@ h2{
   height: 50px;
 }
 
-.submit{
 
-}
 /*mobile*/
