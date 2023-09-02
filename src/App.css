@@ -44,7 +44,7 @@ p{
   width: 80%;
   margin: 0 auto;
   color: hsl(216, 12%, 54%);
-  line-height: 4vh ;
+  line-height: max(4vh, 25px) ;
 }
 
 
