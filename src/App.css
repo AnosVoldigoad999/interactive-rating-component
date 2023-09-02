@@ -1,3 +1,145 @@
 * {
   box-sizing: border-box;
 }
+
+body{
+  background-color: hsl(216, 12%, 8%);
+  font-family: over;
+}
+
+@font-face {
+  font-family: over;
+  src: url(../public/Overpass/Overpass-VariableFont_wght.ttf);
+}
+
+/*container*/
+
+.container{
+  margin: 20vh auto;
+  background-color: hsl(213, 19%, 18%) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30vw;
+  border-radius: 15px;
+  height: 60vh;
+}
+
+.star{
+  content: url(../public/icon-star.svg);
+  width: 12%;
+  height: 13%;
+  border-radius: 25px;
+  margin-left: 10%;
+  padding: 15px;
+  background-color: hsl(216, 12%, 23%);
+}
+
+p{
+  width: 80%;
+  margin: 0 auto;
+  color: hsl(216, 12%, 54%);
+  line-height: 4vh ;
+}
+
+
+h2{
+  width: 80%;
+  margin: 0 auto;
+  color: hsl(0, 0%, 100%);
+}
+
+.everything{
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  justify-content: end;
+  justify-content: space-around ;
+  align-items: center;
+}
+
+.thankh2{
+  text-align: center;
+}
+
+.up{
+  text-align: center;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 23%);
+  padding: 5px 15px;
+  border-radius: 15px;
+  width: fit-content;
+}
+
+.thankp{
+  text-align: center;
+}
+
+.other{
+  content: url(../public/illustration-thank-you.svg);
+  height: 60%;
+  width: 35%;
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.rates{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.link{
+  margin: 0 auto;
+}
+
+.rate{
+  background-color: hsl(216, 12%, 23%);
+  padding: 15px 20px;
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius: 30px;
+  color: hsl(216, 12%, 54%) ;
+}
+
+.rated{
+  background-color: hsl(217, 12%, 63%);
+  padding: 15px 20px;
+  border: 1px solid hsl(213, 19%, 18%);
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+}
+
+.submit{
+  margin: 0 auto;
+  background-color: hsl(25, 97%, 53%);
+  padding: 15px 0 ;
+  width: 20vw;
+  font-family: over;
+  border: none;
+  border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+/*container*/
+
+/*hover*/
+.submit:hover{
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.rate:hover{
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%); 
+}
+/*hover*/
