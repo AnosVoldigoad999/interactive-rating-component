@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-solution-SEzbENnTjr(https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-solution-SEzbENnTjr)
+- Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-solution-SEzbENnTjr](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-solution-SEzbENnTjr)
 - Live Site URL: [https://interactive-rating-component-ashy-omega.vercel.app/](https://interactive-rating-component-ashy-omega.vercel.app/)
 
 ## My process
